@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>CoffeeTaskList</title>
+</head>
+<body>
+    <div class="dashDiv">
+        <div class="top-section">
+            <div class="datetime">
+                <span id="day"></span>
+                <span id="number"></span>
+                <span id="month"></span>
+            </div>
+
+            <div class="right-section">
+                <div class="progression">
+                    <h3>Progression</h3>
+                    <progress id="progress-bar" value="0" max="100"></progress>
+                </div>
+
+                <div class="add-task">
+                    <input id="write-task" type="text" size="28" placeholder="Write your task here..." >
+                    <button id="add-btn">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="task-list-container">
+            <div class="search-container">
+                <i class='bx bx-search'></i>
+                <input type="text" id="search-task" placeholder="Search tasks...">
+            </div>
+            <!-- Tasks will be added here dynamically -->
+        </div>
+        <button id="finish-btn">FINISH DAY</button>
+    </div>
+    
+    <div id="snackbar"></div>
+    
+    <script src="dashboard.js"></script>
+</body>
+</html>
