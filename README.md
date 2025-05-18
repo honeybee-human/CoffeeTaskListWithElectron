@@ -1,7 +1,7 @@
 ## CoffeeTaskList
 
 CoffeeTaskList is a a simple real-time updating to-do list
-featuring custom-designed UI elements, drag and drop of tasks, and saving of task sessions when closed. This is designed with the idea of creating tiny tasks, such as "open the school website in a new tab", which a user might find unreasonable or troublesome to list in a task manager that would save these states.
+featuring custom-designed UI elements, drag and drop of tasks, create/update/delete, time completed, priority levels and search. This is designed with the idea of creating tiny tasks, such as "open the school website in a new tab", which a user might find unreasonable or troublesome to list in a task manager that would save these states.
 
 ### Built with
 * HTML
